@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+.App{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  text-align: center;
+  font-style: italic;
+  margin-top: 3rem;
+}
+.underline{
+  width: 80px;
+  height: 2px;
+  background-color: coral;
+  margin: 0.5rem auto;
+}
+.section{
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: aliceblue;
+}
+.each-tour{
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+.img-container{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 5px;
+ }
+.img{
+  width: 100%;
+  object-fit: cover;
+}
+.name-price{
+  padding: .75rem;
+  display: flex;
+  font-size: 14px;
+}
+.name{
+  flex-grow: 1;
+  color: grey;
+}
+.price{
+  color: green;
+}
+.info{
+  padding: 0.75rem;
+  color: grey;
+  line-height: 1rem;
+  font-style: italic;
+}
+.remove-btn-container{
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.remove-btn{
+  padding: 0.25rem 1rem;
+  border: none;
+  letter-spacing: 2px;
+  color: white;
+  background-color: darkred;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.remove-btn:hover{
+  font-size: 16px;
+}
+.btn{
+  border: none;
+  letter-spacing: 2px;
+  font-style: italic;
+  color: coral;
+  background-color: aliceblue;
+  margin-left: 0.25rem;
+  cursor: pointer;
+}
+.refresh-btn{
+  margin-top: 2rem;
+  width:10rem;
+  padding: 0.5rem 0;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  background-color: aliceblue;
+  color: coral;
+  cursor: pointer;
+}
+.refresh-btn:hover{
+  font-size: 18px;
+}
